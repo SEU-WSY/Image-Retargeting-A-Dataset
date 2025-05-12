@@ -43,3 +43,4 @@ If you use our database, please cite our paper:
     howpublished = {\url{https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics}},
     note   = {Accessed: YYYY-MM-DD}  % Optional: Add access date
 }
+
