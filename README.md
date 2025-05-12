@@ -18,10 +18,12 @@ Second, in terms of aspect ratio distribution, our dataset covers a wider range 
 <img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio.png" width="500" /> <br>  
 # Download the data
 To access our full dataset, please fill in the [form](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/application.xlsx) and send this form to this email(cious449@gmail.com).<br>
-To use our database, please reference our paper.
+To use our database, please reference our paper.<br> 
+```
     @misc{dataset2025,
     author={wwwwwwwsy},
     title={Image-Retargeting-A-Dataset-and-Metrics},
     year={2025},
     howpublished={\url{https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/tree/main}},
 }
+```
