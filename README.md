@@ -33,7 +33,7 @@ To access the full dataset:
 1. Fill out the [application form](https://github.com/SEU-WSY/Image-Retargeting-A-Dataset/blob/main/application.xlsx).  
 2. Send the completed form to [cious449@gmail.com](mailto:cious449@gmail.com).  
 
-**Citation Request**  
+## Citation Request
 If you use our database, please cite our paper:  
 ```bibtex
 @misc{dataset2025,
