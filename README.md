@@ -7,7 +7,7 @@ The labels are the new spatial layout of foreground instances after retargeting.
 ### Step 1:Bounding. 
 We first extract the foreground instances. A minimum bounding square is then placed around each salient mask to facilitate locating each instance’s center.<br> 
 ### Step 2:Translating and trimming. 
-We design a Translate module(shown in Figure right) to maintain the completeness of salient instance masks.<br>
+We design a Translate module to maintain the completeness of salient instance masks.<br>
 ### Step 3:Final Adjustment and Expansion. 
 During transformations, if any salient objects become cropped or partially obscured, we apply corrective measures to maintain their visibility.<br>
 ## Instance Number
