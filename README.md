@@ -2,9 +2,7 @@
 We construct a novel dataset(RetarSet) that not only encompasses a wide range of input/output ratios, object counts, and layouts but also includes annotations on object distributions post-retargeting. <br> 
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/example.png)  <br>  
 # Mask Annotation of RetarSet
-After reformulating the annotation of image retargeting as a foreground re-layout task, we establish the following criteria for foreground objects before and after retargeting: 1) Preserve the complete and unaltered appearance of salient objects. 2) Maintain consistent inter-instance relationships and overall global layout.<br>  
-To this end, we propose a novel annotation method based on the give salient object masks and ranking labels in the source datasets to determine the new distribution of foreground instances after retargeting. The detailed process is illustrated in Figure below and it contains three steps. <br> 
-![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/flowChart.png)  <br>  
+The labels are the new spatial layout of foreground instances after retargeting. The annotation process contains three steps. <br> 
 ### Step 1:Bounding. 
 We first extract the foreground instances. A minimum bounding square is then placed around each salient mask to facilitate locating each instance’s center.<br> 
 ### Step 2:Translating and trimming. 
@@ -19,4 +17,11 @@ First, in terms of the number of instances, our dataset far exceeds RetargetMe i
 Second, in terms of aspect ratio distribution, our dataset covers a wider range of ratios, e.g., the number of 4:3 aspect ratio images is 18 times that of RetargetMe, and it is significantly larger in multiple aspect ratios, ensuring the balance and applicability of the data. <br>  
 <img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio.png" width="500" /> <br>  
 # Download the data
-To access our full dataset, please fill in the [form](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/application.xlsx) and send this form to this email(haochen303@seu.edu.cn).<br>
+To access our full dataset, please fill in the [form](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/application.xlsx) and send this form to this email(cious449@gmail.com).<br>
+To use our database, please reference our paper.
+    @misc{dataset2025,
+    author={wwwwwwwsy},
+    title={Image-Retargeting-A-Dataset-and-Metrics},
+    year={2025},
+    howpublished={\url{https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/tree/main}},
+}
