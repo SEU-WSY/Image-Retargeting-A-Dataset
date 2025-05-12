@@ -34,7 +34,7 @@ To access the full dataset:
 2. Send the completed form to [cious449@gmail.com](mailto:cious449@gmail.com).  
 
 ## Citation Request
-If you use our database, please cite our paper:  
+If you use our dataset, please cite our paper:  
 ```bibtex
 @misc{dataset2025,
     author = {wwwwwwwsy},
