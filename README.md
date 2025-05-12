@@ -37,10 +37,10 @@ To access the full dataset:
 If you use our dataset, please cite our paper:  
 ```bibtex
 @misc{dataset2025,
-    author = {wwwwwwwsy},
+    author = {SEU-WSY},
     title  = {Image Retargeting: A Dataset and Metrics},
     year   = {2025},
-    howpublished = {\url{https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics}},
+    howpublished = {\url{https://github.com/SEU-WSY/Image-Retargeting-A-Dataset}},
     note   = {Accessed: YYYY-MM-DD}  % Optional: Add access date
 }
 
