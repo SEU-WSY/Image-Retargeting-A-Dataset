@@ -1,5 +1,6 @@
 # Image-Retargeting-A-Dataset-and-Metrics：RetarSet
 We construct a novel dataset(RetarSet) that not only encompasses a wide range of input/output ratios, object counts, and layouts but also includes annotations on object distributions post-retargeting. <br> 
+RetarSet contains 4,000 images equally distributed across four aspect ratios: 1:1, 4:3, 9:16, and 16:9 (1,000 images per ratio).<br>
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/example.png)  <br>  
 # Mask Annotation of RetarSet
 The labels are the new spatial layout of foreground instances after retargeting. The annotation process contains three steps. <br> 
@@ -10,7 +11,7 @@ We design a Translate module(shown in Figure right) to maintain the completeness
 ### Step 3:Final Adjustment and Expansion. 
 During transformations, if any salient objects become cropped or partially obscured, we apply corrective measures to maintain their visibility.<br>
 ## Instance Number
-First, in terms of the number of instances, our dataset far exceeds RetargetMe. For example, the number of three-instance images is **15 times** that of RetargetMe, indicating that this dataset can provide richer data for challenging tasks.
+First, in terms of the number of instances, our dataset can provide richer data for challenging tasks.
 
 |          | 1   | 2    | 3    | 4    | 5    | 6  | 7  | 8  |
 |----------|----:|-----:|-----:|-----:|-----:|---:|---:|---:|
@@ -19,7 +20,7 @@ First, in terms of the number of instances, our dataset far exceeds RetargetMe. 
 ---
 
 ## Aspect Ratio Distribution
-Second, our dataset covers a wider range of aspect ratios. For example, the number of `4:3` images is **18 times** that of RetargetMe, with significant improvements across multiple ratios, ensuring better data balance and applicability.
+Second, our dataset covers a wider range of aspect ratios. It ensures better data balance and applicability.
 
 |          | 4:3  | 2:1 | 5:4 | 5:3 | 1:1 | 4:5 | 3:5 |
 |----------|-----:|----:|----:|----:|----:|----:|----:|
