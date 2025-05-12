@@ -13,7 +13,8 @@ We design a Translate module(shown in Figure right) to maintain the completeness
 During transformations, if any salient objects become cropped or partially obscured, we apply corrective measures to maintain their visibility.<br>
 # Instance number
 First, in terms of the number of instances, our dataset far exceeds RetargetMe in the number of instances, for example, the number of three-instance images is 15 times that of RetargetMe , indicating that this dataset can provide richer data for difficult tasks.<br>  
-![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/instance_number.png){:height="50%" width="50%"}  <br>  
+<img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/instance_number.png" width="500" />
+  <br>  
 # Aspect ratio
 Second, in terms of aspect ratio distribution, our dataset covers a wider range of ratios, e.g., the number of 4:3 aspect ratio images is 18 times that of RetargetMe, and it is significantly larger in multiple aspect ratios, ensuring the balance and applicability of the data. <br>  
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio.png)  <br>  
