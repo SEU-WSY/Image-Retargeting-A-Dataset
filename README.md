@@ -1,7 +1,7 @@
 # Image-Retargeting-A-Dataset：RetarSet
 We construct a novel dataset(RetarSet) that not only encompasses a wide range of input/output ratios, object counts, and layouts but also includes annotations on object distributions post-retargeting. <br> 
 RetarSet contains 4,000 images equally distributed across four aspect ratios: 1:1, 4:3, 9:16, and 16:9 (1,000 images per ratio).<br>
-<img src="https://github.com/SEU-WSY/Image-Retargeting-A-Dataset/blob/main/example.png" width="50%"><br>  
+<img src="https://github.com/SEU-WSY/Image-Retargeting-A-Dataset/blob/main/example.png" width="70%"><br>  
 # Mask Annotation of RetarSet
 The labels are the new spatial layout of foreground instances after retargeting. The annotation process contains three steps. <br> 
 ### Step 1:Bounding. 
