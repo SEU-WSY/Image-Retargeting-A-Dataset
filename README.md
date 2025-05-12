@@ -1,4 +1,4 @@
-# Image-Retargeting-A-Dataset-and-Metrics：RetarSet
+# Image-Retargeting-A-Dataset：RetarSet
 We construct a novel dataset(RetarSet) that not only encompasses a wide range of input/output ratios, object counts, and layouts but also includes annotations on object distributions post-retargeting. <br> 
 RetarSet contains 4,000 images equally distributed across four aspect ratios: 1:1, 4:3, 9:16, and 16:9 (1,000 images per ratio).<br>
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/example.png)  <br>  
