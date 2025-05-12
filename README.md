@@ -11,14 +11,16 @@ We design a Translate module(shown in Figure right) to maintain the completeness
 During transformations, if any salient objects become cropped or partially obscured, we apply corrective measures to maintain their visibility.<br>
 # Instance number
 First, in terms of the number of instances, our dataset far exceeds RetargetMe in the number of instances, for example, the number of three-instance images is 15 times that of RetargetMe , indicating that this dataset can provide richer data for difficult tasks.<br>  
-<img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/instance_number.png" width="500" />
 |       | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
 |-------|-----|-----|-----|-----|-----|-----|-----|-----|
 | RetarSet  | 114 | 262 | 180 | 130 | 301 | 8   | 3   | 2   |
   <br>  
 # Aspect ratio
 Second, in terms of aspect ratio distribution, our dataset covers a wider range of ratios, e.g., the number of 4:3 aspect ratio images is 18 times that of RetargetMe, and it is significantly larger in multiple aspect ratios, ensuring the balance and applicability of the data. <br>  
-<img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio.png" width="500" /> <br>  
+|       | 4:3   | 2:1   | 5:4   | 5:3   | 1:1   | 3:5   | 
+|-------|-------|-------|-------|-------|-------|-------|
+| RetarSet  | 754 | 28 | 32 | 44 | 17 | 47   | 78   | 
+<br>  
 # Download the data
 To access our full dataset, please fill in the [form](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/application.xlsx) and send this form to this email(cious449@gmail.com).<br>
 To use our database, please reference our paper.<br> 
