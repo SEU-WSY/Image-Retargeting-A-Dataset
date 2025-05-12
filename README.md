@@ -1,6 +1,7 @@
 # Image-Retargeting-A-Dataset-and-Metrics
 We construct a novel dataset that not only encompasses a wide range of input/output ratios, object counts, and layouts but also includes annotations on object distributions post-retargeting. <br> 
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/example.png)  <br>  
+# Mask Annotation
 After reformulating the annotation of image retargeting as a foreground re-layout task, we establish the following criteria for foreground objects before and after retargeting: 1) Preserve the complete and unaltered appearance of salient objects. 2) Maintain consistent inter-instance relationships and overall global layout.<br>  
 To this end, we propose a novel annotation method based on the give salient object masks and ranking labels in the source datasets to determine the new distribution of foreground instances after retargeting. The detailed process is illustrated in Figure below and it contains three steps. <br> 
 ![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/flowChart.png)  <br>  
