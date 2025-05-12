@@ -17,6 +17,6 @@ First, in terms of the number of instances, our dataset far exceeds RetargetMe i
   <br>  
 # Aspect ratio
 Second, in terms of aspect ratio distribution, our dataset covers a wider range of ratios, e.g., the number of 4:3 aspect ratio images is 18 times that of RetargetMe, and it is significantly larger in multiple aspect ratios, ensuring the balance and applicability of the data. <br>  
-![](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio.png)  <br>  
+<img src="https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/aspect_ratio" width="500" /> <br>  
 # Download the data
 To access our full dataset, please fill in the [form](https://github.com/wwwwwwwsy/Image-Retargeting-A-Dataset-and-Metrics/blob/main/application.xlsx) and send this form to this email(haochen303@seu.edu.cn).<br>
